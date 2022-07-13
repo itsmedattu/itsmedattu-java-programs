@@ -6,6 +6,7 @@ public class javaprograms {
 		String str="bappay";
 		char[] strArray=str.toCharArray();
 		System.out.println(ra.removeAdj(strArray,strArray.length));
+		System.out.println("hello");
 	}
 
 }
