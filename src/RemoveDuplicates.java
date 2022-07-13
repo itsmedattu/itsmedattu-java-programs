@@ -6,7 +6,7 @@ public class RemoveDuplicates {
 
 	public static void main(String[] args) {
 		System.out.println("Hola");
-		System.out.println("hello");
+		System.out.println("hello1");
 	 int []array= {1,2,3,4,4,4,4,6};
 	 int []array1= {1,1,1,1};
 	 RemoveDuplicates rd=new RemoveDuplicates();
