@@ -9,6 +9,7 @@ public class mySubArrayWithGivenSum {
 		int T=0;
 		int N=0;
 		int S=0;
+//		System.out.println("Please enter number of elements of the array in first line, array values in second line, sum value in third line");
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		try {
 		T=Integer.parseInt(br.readLine());
