@@ -1,3 +1,5 @@
+
+--remove duplicates from table , keep 1 row
 delete
 from employee using employee,
     employee e1
