@@ -33,7 +33,7 @@ public class CountPairswithgivenSum {
 		}
 		return count;
 	}
-	
+
 	int getCountPairswithgivenSumwithsort(int[] array,int sum)
 	{
 		int count=0;
@@ -52,13 +52,13 @@ public class CountPairswithgivenSum {
 		}
 		return count;
 	}
-	
+
 	int getCountPairswithgivensumwithMap(int[] array,int sum)
 	{
 		HashMap<Integer,Integer> hp=new HashMap<>();
-	
+
 		int count=0;
-	
+
 		for(int i=0;i<array.length;i++) {
 			if(hp.containsKey(sum-array[i])) {
 				count=count+hp.get(sum-array[i]);
@@ -73,7 +73,7 @@ public class CountPairswithgivenSum {
 		return count;
 	}
 
-	
+
 	void Display(int[] array) {
 		for(int a:array)
 		{
