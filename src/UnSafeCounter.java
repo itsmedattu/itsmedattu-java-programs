@@ -5,8 +5,7 @@ class Counter extends Thread {
 
   // method which would be called upon
   // the start of execution of a thread
-  public void run()
-  {
+  public void run() {
 
     int max = 1_000_00_000;
 
@@ -22,9 +21,7 @@ class Counter extends Thread {
 }
 
 public class UnSafeCounter {
-  public static void main(String[] args)
-      throws InterruptedException
-  {
+  public static void main(String[] args) throws InterruptedException {
     // Instance of Counter Class
     Counter c = new Counter();
 

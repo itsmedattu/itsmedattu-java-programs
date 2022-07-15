@@ -6,15 +6,13 @@ class CounterNew extends Thread {
   AtomicInteger count;
 
   // Constructor of class
-  CounterNew()
-  {
+  CounterNew() {
     count = new AtomicInteger();
   }
 
   // method which would be called upon
   // the start of execution of a thread
-  public void run()
-  {
+  public void run() {
 
     int max = 1_000_00_000;
 
@@ -26,9 +24,7 @@ class CounterNew extends Thread {
 }
 
 public class AtomicCounter {
-  public static void main(String[] args)
-      throws InterruptedException
-  {
+  public static void main(String[] args) throws InterruptedException {
     // Instance of Counter Class
     CounterNew c = new CounterNew();
 
