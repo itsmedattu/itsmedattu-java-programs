@@ -8,11 +8,13 @@ public class CheckGitExclude {
     String s2 = new String("dattu");
     String s3 = s1.intern();
     String s4 = "dattu";
+    String s5="dattu";
 
     System.out.println(s1 == s2);
     System.out.println(s1 == s3);
     System.out.println(s1 == s4);
     System.out.println(s3 == s4);
+    System.out.println(s3==s5);
 
   }
 
