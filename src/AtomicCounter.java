@@ -27,7 +27,7 @@ public class AtomicCounter {
   public static void main(String[] args) throws InterruptedException {
     // Instance of Counter Class
     CounterNew c = new CounterNew();
-
+    
     // Defining Two different threads
     Thread first = new Thread(c, "First");
     Thread second = new Thread(c, "Second");
